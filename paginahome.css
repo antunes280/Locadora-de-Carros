@@ -1,0 +1,266 @@
+
+body{
+  background-color: rgb(0, 0, 0) ;
+}
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;  /*subir ou descer os botões na pagina*/
+    height: 50px;    /*tamanho dos botões*/
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 60px;   /*espaçamento dos botões*/
+    cursor: pointer;
+    font-size: 26px;  /*tamanho das letras dos botões*/
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.5s ease;
+  }
+  
+  .button1 {
+    background-color: #e74c3c;
+  }
+  
+  .button2 {
+    background-color: #3498db;
+  }
+  
+  .button3 {
+    background-color: #2ecc71;
+  }
+  
+  .button1:hover, .button2:hover, .button3:hover {
+    background-color: #f39c12;
+  }
+  
+  .button1:focus, .button2:focus, .button3:focus {
+    outline: none;
+  }
+  
+  /* Efeito de cores que muda automaticamente */
+  @keyframes change-color {
+    0% {
+      background-color: #e74c3c;
+    }
+    33% {
+      background-color: #2ecc71;
+    }
+    66% {
+      background-color: #f1c40f;
+    }
+    100% {
+      background-color: #3498db;
+    }
+  }
+  
+  .button-row .button:nth-child(1) {
+    animation: change-color 10s infinite;
+  }
+  
+  .button-row .button:nth-child(2) {
+    animation: change-color 10s 1s infinite;
+  }
+  
+  .button-row .button:nth-child(3) {
+    animation: change-color 10s 2s infinite;
+  }
+  
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .logo {
+    margin-left: 3rem; /* altere o valor de acordo com a distância desejada */
+    height: 300px; /* altere o valor de acordo com o tamanho desejado */
+    float: left; /* adiciona o float para posicionar a imagem no lado esquerdo */
+  }
+  
+  /* adicione a classe .clear para limpar o float */
+  .clear {
+    clear: both;
+  }
+
+  .header__links {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  
+  .header__links a {
+    color: #03c3f3;
+    text-decoration: none;
+    font-size:1.8rem;
+    margin-left: 9rem;
+    margin-top: 10rem;     
+  }
+  
+  .link {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px; /* para afastar o texto da imagem */
+  }
+  
+  .link-ajuda {
+    background-image: url('icone-ajuda.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+  }
+  
+  .link-reservas {
+    background-image: url('icone-reservas.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+  }
+  
+  .link-entrar {
+    background-image: url('icone-entrar.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+  }
+  
+  .typing-text {
+    overflow: hidden; /* Esconde o texto que ainda não foi digitado */
+    border-right: 0.15em solid orange; /* Adiciona um efeito de cursor com uma linha laranja */
+    white-space: nowrap; /* Faz com que o texto fique em uma única linha */
+    margin: 50px 0 0 100px; 
+    letter-spacing: 0.15em; /* Adiciona um espaçamento entre as letras */
+    color: white;
+    font-size: 40px; 
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      margin-top: 150px;
+  line-height: 50px;
+  font-size: 45px;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(252, 249, 243) }
+  }
+    
+  .gif{
+    display: flex;
+    justify-content: center;
+    margin-top: -10rem;
+    margin-left: 60rem; /* altere o valor de acordo com a distância desejada */
+    height: 300px; /* altere o valor de acordo com o tamanho desejado */
+    float: left; /* adiciona o float para posicionar a imagem no lado esquerdo */
+  }
+  
+
+  .paragrafo{
+    font-size: 44px;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 200px;
+  color: white;
+  }
+    
+
+
+  .carros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 800px;
+  }
+  
+  .carro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(251, 255, 8, 0.925);
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 300px; 
+    height: 300px; 
+  }
+  
+  .carro:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carro img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .btn-alugar {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .btn-alugar:hover {
+    background-color: #3b6e8f;
+   
+   }
+
+
+   .carro img {
+       max-width: 300px; /* Largura máxima */
+       max-height: 200px; /* Altura máxima */
+       height: auto; /* Altura automática proporcional à largura */
+       margin-bottom: 20px;
+     }
+
+     .botao-carro4 {
+       margin-top: -150px; /* Valor negativo igual ao valor do margin na classe .carro */
+     }
+
+     .square {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .glow-effect {
+      font-size: 36px;
+      text-align: center;
+      text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #00b3ff, 0 0 30px #00b3ff, 0 0 40px #00b3ff, 0 0 50px #00b3ff, 0 0 75px #00b3ff;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #00b3ff, 0 0 30px #00b3ff, 0 0 40px #00b3ff, 0 0 50px #00b3ff, 0 0 75px #00b3ff;
+      }
+      to {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #00b3ff, 0 0 60px #00b3ff, 0 0 80px #00b3ff, 0 0 100px #00b3ff, 0 0 150px #00b3ff;
+      }
+    }
+    
+    h2 {
+      margin-top: 5px; /* Ajuste o valor conforme necessário */
+    }
+    
+   

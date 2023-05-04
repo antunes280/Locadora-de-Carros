@@ -1,0 +1,78 @@
+/* Estilo do body */
+body {
+    background-color: #0f0f0f;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo do cabeçalho */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #eeff00;
+  }
+  
+  /* Estilo do formulário */
+  .form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(238, 255, 7);
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  /* Estilo dos campos do formulário */
+  .form label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .form button {
+    background-color: #ff0f0f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .form button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilo da mensagem de erro */
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Estilo do botão de "Não tenho cadastro" */
+  #no-account {
+    background-color: #ffffff;
+    border: none;
+    color: #1900ff;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 20px;
+  }
+  
+  #no-account:hover {
+    color: #555;
+  }
+  
+ 

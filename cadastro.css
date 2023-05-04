@@ -1,0 +1,68 @@
+/* Estilo do body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo do cabeçalho */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo do título */
+  .header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Estilo do formulário */
+  .form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  /* Estilo dos campos do formulário */
+  .form label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .form button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .form button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilo da mensagem de erro */
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

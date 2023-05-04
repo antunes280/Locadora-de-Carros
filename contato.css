@@ -1,0 +1,86 @@
+/* Estilo do body */
+body {
+	background-color: #000000;
+	font-family: Arial, sans-serif;
+}
+
+/* Estilo do container */
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+	margin-top: 0;
+}
+
+/* Estilo das informações de contato */
+.contact-info {
+	margin-bottom: 50px;
+    color: #f0eaea;
+}
+
+.contact-info h2 {
+	font-size: 24px;
+	margin-top: 50px;
+}
+
+.contact-info p {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+/* Estilo do formulário */
+form {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgb(0, 255, 89);
+	padding: 20px;
+	text-align: left;
+}
+
+form label {
+	display: block;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 10px;
+	width: 100%;
+}
+
+form textarea {
+	height: 150px;
+}
+
+form input[type="submit"] {
+	background-color: #00fd00;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+form input[type="submit"]:hover {
+	background-color: #ffffff;
+}
+
+/* Estilo da mensagem de erro */
+.error-message {
+	color: red;
+	font-size: 16px;
+	margin-top: 10px;
+}
